@@ -5,17 +5,16 @@
 
 [![Node CI](https://github.com/nikitovskij/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg?branch=main)](https://github.com/nikitovskij/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
-## Brain Games: Even number
-[![asciicast](https://asciinema.org/a/js6JHCCcToSLFowN4o9nMxl5W.svg)](https://asciinema.org/a/js6JHCCcToSLFowN4o9nMxl5W)
+## How to install
+- _Node.js 14 or newer is required_
 
-## Brain Games: Calc
-[![asciicast](https://asciinema.org/a/ESW4Z1KUdrswEgh5jbayrTzKC.svg)](https://asciinema.org/a/ESW4Z1KUdrswEgh5jbayrTzKC)
+```
+$ git clone https://github.com/nikitovskij/frontend-project-lvl1
+$ cd frontend-project-lvl1`
+$ npm install make -g
+$ make install
+$ npm link
 
-## Brain Games: Gcd
-[![asciicast](https://asciinema.org/a/UL2bLQ4It8S5F98tD2IMxLdIC.svg)](https://asciinema.org/a/UL2bLQ4It8S5F98tD2IMxLdIC)
-
-## Brain Games: Progression
-[![asciicast](https://asciinema.org/a/zM9LJyQdTskGN0BeoWH05lnuk.svg)](https://asciinema.org/a/zM9LJyQdTskGN0BeoWH05lnuk)
-
-## Brain Games: Prime
-[![asciicast](https://asciinema.org/a/w2W6YNhloze76gwgdR3RAxZ4L.svg)](https://asciinema.org/a/w2W6YNhloze76gwgdR3RAxZ4L)
+List of avalible games: brain-evevn, brain-calc, brain-progression, brain-prime, brain-gcd
+$ brain-even
+```
