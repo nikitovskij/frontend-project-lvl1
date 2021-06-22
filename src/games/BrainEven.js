@@ -1,5 +1,5 @@
 import start from '../index.js';
-import * as generator from '../Service/generator.js';
+import * as generator from '../utils/generator.js';
 
 const GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (number) => number % 2 === 0;

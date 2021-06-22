@@ -1,7 +1,7 @@
 import start from '../index.js';
-import * as generator from '../Service/generator.js';
+import * as generator from '../utils/generator.js';
 
-const GAME_RULE = '';
+const GAME_RULE = 'What number is missing in the progression?';
 
 const PROGRESSION_LENGTH = 10;
 
@@ -23,6 +23,7 @@ const generateQuestion = () => {
   const guessingNumIndex = generator.randomInteger(1, PROGRESSION_LENGTH - 1);
 
   const progression = getProgression(num, multiplier, PROGRESSION_LENGTH);
+
   const answer = progression[guessingNumIndex].toString();
   const question = progression.join(' ').replace(answer, '..');
 

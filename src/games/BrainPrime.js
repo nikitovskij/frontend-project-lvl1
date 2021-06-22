@@ -1,5 +1,5 @@
 import start from '../index.js';
-import * as generator from '../Service/generator.js';
+import * as generator from '../utils/generator.js';
 
 const GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
