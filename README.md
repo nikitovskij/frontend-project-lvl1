@@ -10,7 +10,7 @@
 
 ```
 $ git clone https://github.com/nikitovskij/frontend-project-lvl1
-$ cd frontend-project-lvl1`
+$ cd frontend-project-lvl1
 $ npm install make -g
 $ make install
 $ npm link
