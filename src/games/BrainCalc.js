@@ -14,7 +14,7 @@ const calc = (num1, num2, operator) => {
     case '*':
       return num1 * num2;
     default:
-      return 'Invalid operator';
+      throw new Error(`Unknown expression: '${operator}'!`);
   }
 };
 
